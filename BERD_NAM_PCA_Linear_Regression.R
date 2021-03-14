@@ -13,7 +13,7 @@ library(varhandle) # used to unfactor
 library(relaimpo)
 
 ### Load base directory ###
-base.dir = "/Volumes/qac/prj/kirkpatricka/Angelia_Project/analysis/NAM_group/"
+base.dir = ".../analysis/NAM_group/"
 
 ### Annotation files ###
 ensembl = useMart(biomart="ENSEMBL_MART_ENSEMBL", host="grch37.ensembl.org", path="/biomart/martservice" ,dataset="hsapiens_gene_ensembl")
@@ -54,7 +54,7 @@ write.xlsx(top,paste0(base.dir,"/BERD 2019/Top_15variable_contributors_all_sampl
 ### Linear Regression ###
 #########################
 ### Linear regression for predicting Base Coats levels ###
-base.dir="/Volumes/qac/prj/kirkpatricka/Angelia_Project/analysis/NAM_group/"
+base.dir="/.../analysis/NAM_group/"
 
 ############################
 ### Predicting BaseCoats ###
